@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>E-Commerce</title>
+    </head>
+
+<body id="top">
+    <section class="header_menu" id="header_menu">
+        <div class="container-fluid px-0 shadow">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+                <a class="navbar-brand pl-5 pl-small-0" href="index.html">
+                    <img src="./assets/images/logo.png"
+                            class="img img-fluid" width="120px" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="product.html">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="category.html">Category</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                    <div class="search mr-3">
+                        <a href="search.html" class="btn btn-sm btn-outline-primary">Search</a>
+                    </div>
+                    <div class="cart">
+                        <a href="cart.html">
+                            <i class="fas fa-shopping-cart fa-2x"></i>
+                            <!-- <i class="fa-solid fa-cart-shopping"></i> -->
+                            <span class="badge badge-pill badge-primary">24</span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>  
+
+    <!-- checkout starts here  -->
+
+    <section class="Checkout py-5 my-5" id="Checkout">
+        <div class="container">
+            <div class="section_title text-center mb-5">
+                <h1 class="text-capitalize">Checkout</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="bg_checkout_1 card pb-5">
+                        <div class="card_body">
+                            <h5 class="mb-5">Billing details</h5>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group mb-0 mb-lg-4">
+                                        <label for="firstName">First name</label>
+                                        <input type="text" class="form-control mb-0 mb-lg-2" id="firstName">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group md-outline">
+                                        <label for="lastName">Last name</label>
+                                        <input type="text" class="form-control" id="lastName">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="form19">Phone</label>
+                                <input type="number" class="form-control" id="form19">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form18">Email address</label>
+                                <input type="email" class="form-control" id="form18">  
+                            </div>
+
+                            <div class="flex-wrap d-flex">
+                                <div class="w-100">
+                                    <label for="">Country</label>
+                                    <select class="custom-select form-group">
+                                        <option value="" selected>Choose your option</option>
+                                        <option value="1">Option 1</option>
+                                        <option value="2">Option 2</option>
+                                        <option value="3">Option 3</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form14">Address Line 1</label>
+                                <input type="text" id="form14" class="form-control" placeholder="House number and street name">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form15">Address Line 2</label>
+                                <input type="text" id="form15" class="form-control" placeholder="Apartment, suite, unit, etc. (optional)">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form16">Postcode</label>
+                                <input type="text" id="form16" class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form17">Town / City</label>
+                                <input type="text" id="form17" class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form76">Addtional information</label>
+                                <textarea id="form76" class="md-textarea form-control" rows="4"></textarea>
+                            </div>
+
+                            <div class="text-center">
+                                <a href="order_confirmation.html" class="btn btn-primary">
+                                    <i class="fa mr-2 fa-check"></i>Purchase
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 bg_checkout_1 h-25 rounded">
+                    <div class="mb-3">
+                        <div class="pt-4">
+                            <h5 class="mb-3">Order Summary</h5>
+                            <ul class="list-group-flush list-group">
+                                <li class="list-group-item d-flex justify-content-between align-item-center border-0 px-0 pb-2">
+                                    <span>Product name 1</span>
+                                    <span>x2</span>
+                                    <span>Rs25.98</span>
+                                </li>
+
+                                <li class="list-group-item d-flex justify-content-between align-item-center border-0 px-0 pb-2">
+                                    <span>Product name 2</span>
+                                    <span>x2</span>
+                                    <span>Rs25.98</span>
+                                </li>
+
+                                <li class="list-group-item d-flex justify-content-between align-item-center border-0 px-0 pb-2">
+                                    <div>
+                                        <strong>Total amount</strong>
+                                        <strong>
+                                            <p class="mb-0">(including VAT)</p>
+                                        </strong>
+                                    </div>
+                                    <span><strong>Rs53.98</strong></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer starts here  -->
+    <section class="footer_section pt-5 pb-2" id="footer_section">
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3 col-6 pl-5 pl-small-15">
+                        <div class="footer_title">
+                            <a href="index.html"><img src="assets/images/logo.png" width="150px" class="img img-fluid" alt="logo"></a>
+                        </div>
+                        <div>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente rerum quam molestiae. Cupiditate ducimus, officia explicabo dolor, id eaque, necessitatibus in voluptatum ipsam qui corporis obcaecati culpa tempore repellat maxime!
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="footer_title pt-3 mb-3">
+                            <h3>Quick Links</h3>
+                        </div>
+                        <div class="footer_links">
+                            <ul>
+                                <li><a href="about.html"> About</a></li>
+                                <li><a href="javascript:;">Offers & Discounts</a></li>
+                                <li><a href="javacript:;">Get carouselExampleControls</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-6">
+                        <div class="footer_title pt-3 mb-3">
+                            <h3>Quick Links</h3>
+                        </div>
+                        <div class="footer_links">
+                            <ul>
+                                <li><a href="javascript:;">Cables</a></li>
+                                <li><a href="javascript:;">Tech Accessories</a></li>
+                                <li><a href="javacript:;">Mobile Accessories</a></li>
+                                <li><a href="javascript:;">Charger</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-6">
+                        <div class="footer_title pt-3 mb-3">
+                            <h3>Quick Links</h3>
+                        </div>
+                        <div class="footer_links">
+                            <ul>
+                                <li><a href="javascript:;">Frequently Asked Questions</a></li>
+                                <li><a href="javascript:;">Terms & Conditions</a></li>
+                                <li><a href="javacript:;">Privacy Policy</a></li>
+                                <li><a href="javascript:;">Report a Payment Issue</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-top">
+                <h6 class="text-center mt-5">Copyright 2024 All rights reserved</h6>
+            </div>
+        </footer>
+    </section>
+    <div class="backtop">
+        <a href="#top" id="button" class="btn btn-lg btn-outline-danger" role="button">
+            <i class="fas fa-chevron-up text-dark"></i>
+        </a>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>

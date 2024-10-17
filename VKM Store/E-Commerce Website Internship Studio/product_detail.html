@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+        integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>E-Commerce</title>
+</head>
+<body id="top">
+    <section class="header_menu" id="header_menu">
+        <div class="container-fluid px-0 shadow">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+                <a class="navbar-brand pl-5 pl-small-0" href="index.html">
+                    <img src="./assets/images/logo.png"
+                    class="img img-fluid" width="120px" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="product.html">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="category.html">Category</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                    <div class="search mr-3">
+                        <a href="search.html" class="btn btn-sm btn-outline-primary">Search</a>
+                    </div>
+                    <div class="cart">
+                        <a href="cart.html">
+                            <i class="fas fa-shopping-cart fa-2x"></i>
+                            <!-- <i class="fa-solid fa-cart-shopping"></i> -->
+                            <span class="badge badge-pill badge-primary">24</span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <section class="product_detail py-5 my-5" id="product_detail">
+        <div class="container">
+            <div class="section_title text-center mb-5">
+                <h1 class="text-capitalize">product detail</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="carouselExampleIndicators" class="carousel slide shadow rounded" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleControls" data-slide-to="0" class="active">
+                                        <img src="assets/images/product1.png.jpg" class="d-block w-50 img img-fluid rounded " width="15px"  alt="image">
+                                    </li>
+                                    <li data-target="#carouselExampleControls" data-slide-to="0" class="active">
+                                        <img src="assets/images/product2.png.jpg" class="d-block w-50 img img-fluid rounded " width="15px"  alt="image">
+                                    </li>
+                                    <li data-target="#carouselExampleControls" data-slide-to="0" class="active">
+                                        <img src="assets/images/product3.png.jpg" class="d-block w-50 img img-fluid rounded " width="15px"  alt="image">
+                                    </li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="assets/images/product1.png.jpg" class="d-block w-100 img img-fluid rounded" alt="image">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/images/product2.png.jpg" class="d-block w-100 img img-fluid rounded" alt="image">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/images/product3.png.jpg" class="d-block w-100 img img-fluid rounded" alt="image">
+                                    </div>
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="title mb-4">
+                                <h3>Blue denim shirt</h3>
+                            </div>
+                            <div class="category mb-4">
+                                <span class="bg-light-gray p-2"><a href="category.html">SHIRT</a></span>
+                            </div>
+                            <div class="rating d-flex text-danger mb-4">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="price mb-4">
+                               <b><span class="mr-1">Rs</span><span>400</span></b>
+                            </div>
+                            <div class="desc">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, quasi eveniet necessitatibus tempore, ipsum a laudantium dolorem aspernatur, voluptatum doloremque excepturi quibusdam expedita enim in velit sit? Fugiat tempora ab itaque, tenetur excepturi officia, ad saepe expedita, ducimus delectus iste libero! Assumenda, modi fuga laboriosam soluta nulla natus facilis et neque ex aliquam recusandae aut, labore esse adipisci iusto omnis minus quia nihil. Laudantium et cum iusto expedita nobis illum ullam! Voluptas esse, quod facilis aliquid modi maiores incidunt ullam corrupti odit beatae, minus explicabo ipsum nihil. Ad quaerat quae quas quis tempora consequatur, maiores id facere, veniam ab, odio quidem qui magnam velit corrupti officiis molestias unde! Ea, veritatis enim? Veritatis deleniti odit maiores, accusamus modi ipsa vitae accusantium repellat quam repellendus.</p>
+                            </div> 
+                            <div class="qty_section border-top pt-2 mb-4">
+                                <label for="">Quantity</label>
+                                <div>
+                                    <div class="mb-0 w-100">
+                                        <input type="number" class="quantity text-center" min="0" max="10" name="quantity" value="1" >
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="buy">
+                                <a href="cart.html" class="btn shadow btn-primary">Add to Cart</a>
+                            </div>                     
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="related_products py-5 my-5" id="related_products">
+        <div class="title">
+            <h3>Related Products</h3>
+        </div>
+        <div class="mt-5 row">
+            <div class="col-md-4 col-6">
+                <div class="border-dark border rounded shadow text-center p-3">
+                    <div class="mb-4">
+                        <img src="assets/images/controller.jpg" alt="" class="img-fluid img">
+                    </div>
+                    <div>
+                        <a href="javascript:;">
+                            <h5>Green Dress with details</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-6">
+                <div class="border-dark border rounded shadow text-center p-3">
+                    <div class="mb-4">
+                        <img src="assets/images/product2.png.jpg" alt="" class="img-fluid img">
+                    </div>
+                    <div>
+                        <a href="javascript:;">
+                            <h5>Green Dress with details</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-6">
+                <div class="border-dark border rounded shadow text-center p-3">
+                    <div class="mb-4">
+                        <img src="assets/images/microphone.jpg" alt="" class="img-fluid img">
+                    </div>
+                    <div>
+                        <a href="javascript:;">
+                            <h5>Green Dress with details</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+     <!-- footer starts here  -->
+     <section class="footer_section pt-5 pb-2" id="footer_section">
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3 col-6 pl-5 pl-small-15">
+                        <div class="footer_title">
+                            <a href="index.html"><img src="assets/images/logo.png" width="150px" class="img img-fluid" alt="logo"></a>
+                        </div>
+                        <div>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente rerum quam molestiae. Cupiditate ducimus, officia explicabo dolor, id eaque, necessitatibus in voluptatum ipsam qui corporis obcaecati culpa tempore repellat maxime!
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="footer_title pt-3 mb-3">
+                            <h3>Quick Links</h3>
+                        </div>
+                        <div class="footer_links">
+                            <ul>
+                                <li><a href="about.html"> About</a></li>
+                                <li><a href="javascript:;">Offers & Discounts</a></li>
+                                <li><a href="javacript:;">Get carouselExampleControls</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-6">
+                        <div class="footer_title pt-3 mb-3">
+                            <h3>Quick Links</h3>
+                        </div>
+                        <div class="footer_links">
+                            <ul>
+                                <li><a href="javascript:;">Cables</a></li>
+                                <li><a href="javascript:;">Tech Accessories</a></li>
+                                <li><a href="javacript:;">Mobile Accessories</a></li>
+                                <li><a href="javascript:;">Charger</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-6">
+                        <div class="footer_title pt-3 mb-3">
+                            <h3>Quick Links</h3>
+                        </div>
+                        <div class="footer_links">
+                            <ul>
+                                <li><a href="javascript:;">Frequently Asked Questions</a></li>
+                                <li><a href="javascript:;">Terms & Conditions</a></li>
+                                <li><a href="javacript:;">Privacy Policy</a></li>
+                                <li><a href="javascript:;">Report a Payment Issue</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-top">
+                <h6 class="text-center mt-5">Copyright 2024 All rights reserved</h6>
+            </div>
+        </footer>
+    </section>
+    <div class="backtop">
+        <a href="#top" id="button" class="btn btn-lg btn-outline-danger" role="button">
+            <i class="fas fa-chevron-up text-dark"></i>
+        </a>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+</body>
+</html>
